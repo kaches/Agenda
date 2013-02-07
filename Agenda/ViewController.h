@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Kaches. All rights reserved.
 //
 
+// Test comment
+
 #import <UIKit/UIKit.h>
 #import "sqlite3.h"
 
