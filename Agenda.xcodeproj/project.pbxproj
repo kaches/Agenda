@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5A79EBB16C349920043AFF1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A79EBA16C349920043AFF1 /* TableViewController.m */; };
 		E5B25BDD16C0D6C8000147DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B25BDC16C0D6C8000147DB /* UIKit.framework */; };
 		E5B25BDF16C0D6C8000147DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B25BDE16C0D6C8000147DB /* Foundation.framework */; };
 		E5B25BE116C0D6C8000147DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B25BE016C0D6C8000147DB /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5A79EB916C349920043AFF1 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E5A79EBA16C349920043AFF1 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		E5B25BD916C0D6C8000147DB /* Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B25BDC16C0D6C8000147DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E5B25BDE16C0D6C8000147DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +95,8 @@
 				E5B25BF416C0D6C8000147DB /* MainStoryboard.storyboard */,
 				E5B25BF716C0D6C8000147DB /* ViewController.h */,
 				E5B25BF816C0D6C8000147DB /* ViewController.m */,
+				E5A79EB916C349920043AFF1 /* TableViewController.h */,
+				E5A79EBA16C349920043AFF1 /* TableViewController.m */,
 				E5B25BE316C0D6C8000147DB /* Supporting Files */,
 			);
 			path = Agenda;
@@ -180,6 +185,7 @@
 				E5B25BE916C0D6C8000147DB /* main.m in Sources */,
 				E5B25BED16C0D6C8000147DB /* AppDelegate.m in Sources */,
 				E5B25BF916C0D6C8000147DB /* ViewController.m in Sources */,
+				E5A79EBB16C349920043AFF1 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +308,7 @@
 				E5B25BFE16C0D6C8000147DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
