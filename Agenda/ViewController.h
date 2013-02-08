@@ -11,11 +11,13 @@
 
 #import <UIKit/UIKit.h>
 #import "sqlite3.h"
+#import "DetailViewController.h"
+#import "Internal.h"
 
 @interface ViewController : UIViewController<UITextFieldDelegate>
 {
-    NSString        *databasePath;
-    sqlite3         *contactDB;
+   // NSString        *databasePath;
+   // sqlite3         *contactDB;
 
 }
 @property (weak, nonatomic) IBOutlet UITextField *name;
